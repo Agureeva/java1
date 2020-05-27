@@ -1,0 +1,37 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007fff64e3e583, pid=7432, tid=3324
+#
+# JRE version: Java(TM) SE Runtime Environment (14.0.1+7) (build 14.0.1+7)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (14.0.1+7, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x33e583]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -javaagent:E:\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=53656:E:\IntelliJ IDEA Community Edition 2020.1.1\bin -Dfile.encoding=UTF-8 Task2.Task2
+
+Host: AMD A8-7410 APU with AMD Radeon R5 Graphics    , 4 cores, 6G,  Windows 10 , 64 bit Build 18362 (10.0.18362.778)
+Time: Tue May 19 17:41:12 2020 RTZ 2 (ceia) elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001c0ab582000):  JavaThread "main" [_thread_in_vm, id=3324, stack(0x000000ade1d00000,0x000000ade1e00000)]
+
+Stack: [0x000000ade1d00000,0x000000ade1e00000],  sp=0x000000ade1dfad30,  free space=1003k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x33e583]
+V  [jvm.dll+0x5f8332]
+V  [jvm.dll+0x33e2ee]
+V  [jvm.dll+0x327913]
+V  [jvm.dll+0x3273a8]
+V  [jvm.dll+0x4ef6e0]
+V  [jvm.dll+0x4ef788]
+V  [jvm.dll+0x33a7bb]
